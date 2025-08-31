@@ -1,6 +1,7 @@
 # Combatec
 
-![Combatec Logo](images/logo.png)
+<img width="200" height="200" alt="Icon-Combatec" src="https://github.com/user-attachments/assets/84e51297-04bb-456c-99c6-bc4cee92aa9c" />
+
 
 O **Combatec** é um sistema de denúncias destinado a alunos da Etec de Guaianazes. O aplicativo permite que alunos registrem denúncias contra outros alunos, professores ou funcionários, sendo monitoradas pelo diretor. O objetivo é promover um ambiente escolar mais seguro e transparente.
 
