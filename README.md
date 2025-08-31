@@ -38,7 +38,7 @@ O **Combatec** é um sistema de denúncias destinado a alunos da Etec de Guaiana
 ```bash
 git clone https://github.com/seu-usuario/combatec.git
 cd combatec
-Configure o banco de dados:
+2. Configure o banco de dados:
 
 Abra o XAMPP e inicie o Apache e MySQL.
 
@@ -46,7 +46,7 @@ Crie um banco chamado combatec.
 
 Importe o arquivo database/combatec.sql.
 
-Configure o backend PHP/Laravel (se estiver usando API):
+3. Configure o backend PHP/Laravel (se estiver usando API):
 
 bash
 Copiar código
@@ -56,27 +56,27 @@ cp .env.example .env
 php artisan key:generate
 # Configure as credenciais do banco de dados no .env
 php artisan serve
-Configure o frontend React Native:
+4. Configure o frontend React Native:
 
 bash
 Copiar código
 cd frontend
 npm install
 expo start
-Abra o aplicativo no emulador ou no celular usando o Expo Go.
+5. Abra o aplicativo no emulador ou no celular usando o Expo Go.
 
-Uso
-Cadastre-se como aluno, administrador ou diretor.
+### Uso
+1. Cadastre-se como aluno, administrador ou diretor.
 
-Faça login com suas credenciais.
+2. Faça login com suas credenciais.
 
-Alunos podem registrar denúncias.
+3. Alunos podem registrar denúncias.
 
-Diretores podem visualizar todas as denúncias e estatísticas.
+4. Diretores podem visualizar todas as denúncias e estatísticas.
 
-Usuários podem alterar a foto do perfil ou restaurar a padrão user.png.
+5. Usuários podem alterar a foto do perfil ou restaurar a padrão user.png.
 
-Estatísticas e Tipos de Denúncia
+### Estatísticas e Tipos de Denúncia
 O sistema contempla os seguintes tipos de discriminação:
 
 Bullying
