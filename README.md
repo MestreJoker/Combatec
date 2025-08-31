@@ -131,3 +131,16 @@ expo start
 <img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/561b98b5-3256-4180-a7bc-9e12c5385a93" />
 <img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/652950fe-40c6-4d12-87da-32bab14a5a44" />
 <img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/fb2fe644-3e07-4a75-b1d2-2eca92c1e315" />
+<br><br><br>
+# Autores do Projeto
+
+O **Combatec** foi desenvolvido por este grupo de estudantes da Etec de Guaianases (Grupo **Godev**):
+* Gabriel dos Santos Gomes
+* Erick Santos de Britto
+* Everton Barbosa Sobrinho
+* Guilherme Lobório Zaramella
+* Jhamil Bladimir
+* Marcos Vinícius de Oliveira Corrêa
+* Renan dos Santos Jesus
+* Thiago Tadeu Brandão
+
