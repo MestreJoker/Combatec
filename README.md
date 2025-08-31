@@ -1,50 +1,133 @@
-# Welcome to your Expo app 👋
+# Combatec
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<img width="200" height="200" alt="Icon-Combatec" src="https://github.com/user-attachments/assets/84e51297-04bb-456c-99c6-bc4cee92aa9c" />
 
-## Get started
 
-1. Install dependencies
+O **Combatec** é um sistema de denúncias destinado a alunos da Etec de Guaianazes. O aplicativo permite que alunos registrem denúncias contra outros alunos, professores ou funcionários, sendo monitoradas pelo diretor. O objetivo é promover um ambiente escolar mais seguro e transparente.
 
-   ```bash
-   npm install
-   ```
+## Funcionalidades
 
-2. Start the app
+* **Cadastro e login** de alunos, administradores e diretores.
+* **Registro de denúncias** por alunos contra colegas, professores ou funcionários.
+* **Acompanhamento de denúncias** pelo diretor.
+* **Menu e perfil do usuário** com foto personalizada.
+* **Painel administrativo** para gestão de usuários e denúncias.
+* **Sistema de estatísticas** mostrando número total de denúncias, denúncias respondidas, pendentes e por tipo de discriminação.
+* **Validação de senhas** com critérios de segurança (mínimo 8 caracteres, incluindo letras e números).
 
-   ```bash
-    npx expo start
-   ```
+## Tecnologias Utilizadas
 
-In the output, you'll find options to open the app in a
+* **Frontend:** React Native, Bootstrap, CSS, JavaScript
+* **Backend:** PHP puro
+* **Banco de Dados:** MySQL (XAMPP)
+* **API:** Laravel (opcional)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Estrutura do Projeto
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+Combatec/
+│
+├── backend/           # PHP e Laravel (API)
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── ...
+│
+├── frontend/          # React Native app
+│   ├── components/
+│   ├── screens/
+│   ├── App.js
+│   └── ...
+│
+├── database/          # Scripts de criação de banco de dados
+│   └── combatec.sql
+│
+├── images/            # Imagens do projeto
+│   └── user/user.png
+│
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Instalação
 
-## Learn more
+### Requisitos
 
-To learn more about developing your project with Expo, look at the following resources:
+* PHP 7.x ou superior
+* MySQL / MariaDB
+* Node.js e npm
+* Expo CLI (opcional)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Passos
 
-## Join the community
+1. Clone este repositório:
 
-Join our community of developers creating universal apps.
+```bash
+git clone https://github.com/seu-usuario/combatec.git
+cd combatec
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+2. Configure o banco de dados:
+
+* Abra o XAMPP e inicie Apache e MySQL.
+* Crie um banco chamado `combatec`.
+* Importe `database/combatec.sql`.
+
+3. Configure o backend PHP/Laravel:
+
+```bash
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+# Configure as credenciais do banco no .env
+php artisan serve
+```
+
+4. Configure o frontend React Native:
+
+```bash
+cd frontend
+npm install
+expo start
+```
+
+5. Abra o aplicativo no emulador ou no celular usando Expo Go.
+
+## Uso
+
+1. Cadastre-se como aluno, administrador ou diretor.
+2. Faça login com suas credenciais.
+3. Alunos podem registrar denúncias.
+4. Diretores podem visualizar todas as denúncias e estatísticas.
+5. Usuários podem alterar a foto do perfil ou restaurar a padrão `user.png`.
+
+## Estatísticas e Tipos de Denúncia
+
+* Bullying
+* Cyberbullying
+* Racismo
+* Gordofobia
+* Homofobia
+* Machismo
+* Assédio
+* Capacitismo
+* Outros
+
+
+<h3>Principais páginas</h3>
+<br>
+<h4>Páginas do Aluno:</h4>
+<img width="257" height="457" alt="image" src="https://github.com/user-attachments/assets/8fdc1afb-9bbc-496c-bfb0-8f5c8974c563" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/26cf2d96-26ca-4dee-9518-5eb7bdf92431" />
+<img width="263" height="468" alt="image" src="https://github.com/user-attachments/assets/64d9e3dd-d7fa-44e6-92d7-0ba85fcfc5cf" />
+<img width="258" height="457" alt="image" src="https://github.com/user-attachments/assets/e6e63f0d-a9d5-4ca8-ae46-7f2f42b59154" />
+<br><br>
+<h4>Página do Diretor:</h4>
+<img width="256" height="456" alt="image" src="https://github.com/user-attachments/assets/459ca44b-b463-4e5c-9b1b-f6a94ef129c0" />
+<br><br>
+<h4>Páginas do Administrador:</h4>
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/6f18e37b-119f-40e5-bf67-2fc1b03008d0" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/6ea497b9-4f10-4065-8a55-58109b165624" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/561b98b5-3256-4180-a7bc-9e12c5385a93" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/652950fe-40c6-4d12-87da-32bab14a5a44" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/fb2fe644-3e07-4a75-b1d2-2eca92c1e315" />
