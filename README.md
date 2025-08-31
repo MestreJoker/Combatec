@@ -111,3 +111,22 @@ expo start
 * Assédio
 * Capacitismo
 * Outros
+
+
+<h3>Principais páginas</h3>
+<br>
+<h4>Páginas do Aluno:</h4>
+<img width="257" height="457" alt="image" src="https://github.com/user-attachments/assets/8fdc1afb-9bbc-496c-bfb0-8f5c8974c563" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/26cf2d96-26ca-4dee-9518-5eb7bdf92431" />
+<img width="263" height="468" alt="image" src="https://github.com/user-attachments/assets/64d9e3dd-d7fa-44e6-92d7-0ba85fcfc5cf" />
+<img width="258" height="457" alt="image" src="https://github.com/user-attachments/assets/e6e63f0d-a9d5-4ca8-ae46-7f2f42b59154" />
+<br><br>
+<h4>Página do Diretor:</h4>
+<img width="256" height="456" alt="image" src="https://github.com/user-attachments/assets/459ca44b-b463-4e5c-9b1b-f6a94ef129c0" />
+<br><br>
+<h4>Páginas do Administrador:</h4>
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/6f18e37b-119f-40e5-bf67-2fc1b03008d0" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/6ea497b9-4f10-4065-8a55-58109b165624" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/561b98b5-3256-4180-a7bc-9e12c5385a93" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/652950fe-40c6-4d12-87da-32bab14a5a44" />
+<img width="257" height="455" alt="image" src="https://github.com/user-attachments/assets/fb2fe644-3e07-4a75-b1d2-2eca92c1e315" />
