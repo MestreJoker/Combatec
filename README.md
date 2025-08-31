@@ -22,31 +22,6 @@ O **Combatec** é um sistema de denúncias destinado a alunos da Etec de Guaiana
 * **Banco de Dados:** MySQL (XAMPP)
 * **API:** Laravel (opcional)
 
-## Estrutura do Projeto
-
-```
-Combatec/
-│
-├── backend/           # PHP e Laravel (API)
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── ...
-│
-├── frontend/          # React Native app
-│   ├── components/
-│   ├── screens/
-│   ├── App.js
-│   └── ...
-│
-├── database/          # Scripts de criação de banco de dados
-│   └── combatec.sql
-│
-├── images/            # Imagens do projeto
-│   └── user/user.png
-│
-└── README.md
-```
 
 ## Instalação
 
